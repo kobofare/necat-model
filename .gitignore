@@ -1,5 +1,12 @@
 *.class
 
+.classpath
+.project
+.settings
+target
+thrift-generated-src-java/
+src/main/java/necat/thrift/**
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
