@@ -30,6 +30,7 @@
 			<fileset dir="${thrift.generated.java.src.dir}">
 			</fileset>
 		</copy>
+        <delete dir="${thrift.output.dir.java}" />
 	</target>
 
 	<target name="clean" depends="clean-thrift-message" />
