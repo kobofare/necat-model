@@ -1,0 +1,9 @@
+namespace java necat.thrift.echo
+
+service EchoService { 
+    string echoString(1:string para) 
+    i32 echoInt(1:i32 para) 
+    bool echoBoolean(1:bool para) 
+    void echoVoid() 
+    string echoNull() 
+}
